@@ -4,7 +4,7 @@ A small e-mail communication service that enables communication between multiple
 
 ## How to run the email_service: 
  - If your IDE can't find dependencies/classes used in the code go to file -> "invalidate caches" and restart.
- - Double check JavaFX dependencies in pom.xml
+ - Before you run the program, in DbUsers.java, change the path variable to the path where your "database" folder is. 
 
 1. To run the server side of the application, the main function is in ServerStart.java, run that to load the server.
 2. To run the client, the main function is in ClientStart.java, run that to load the client. Beware that you have to input an username that is present in database/userList.txt
