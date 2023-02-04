@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b8c19c0-0fa2-4db3-9b1f-8c4405e0dd7f" name="Changes" comment="" />
+    <list default="true" id="4b8c19c0-0fa2-4db3-9b1f-8c4405e0dd7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/emailservice/DbUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/emailservice/DbUsers.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -30,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2KTXCOkFcgmxMEvZJ2PXxf39hU2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -113,10 +119,22 @@
       <workItem from="1675505471625" duration="151000" />
       <workItem from="1675510128047" duration="179000" />
       <workItem from="1675517316584" duration="81000" />
+      <workItem from="1675520720659" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

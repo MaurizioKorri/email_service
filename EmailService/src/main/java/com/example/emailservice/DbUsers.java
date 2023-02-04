@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public class DbUsers {
 
-    private static final String path = System.getProperty("user.dir") + File.separator + "database";
+    private static final String path = "C:\\Users\\korri\\Documents\\GitHub Projects\\email_service\\EmailService\\database";
     private static final String usersFile = "userList.txt";
 
 
