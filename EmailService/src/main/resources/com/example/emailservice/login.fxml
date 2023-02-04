@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainPane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.emailservice.LoginController">
+    <children>
+        <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+            <right>
+                <AnchorPane prefHeight="600.0" prefWidth="493.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <TextField fx:id="addressTextField" layoutX="168.0" layoutY="226.0" prefHeight="35.0" prefWidth="240.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #0598; -fx-border-width: 0px 0px 2px 0px;" />
+                        <Button fx:id="loginButton" layoutX="242.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="39.0" prefWidth="81.0" style="-fx-background-color: #0598ff;" text="Login" textFill="WHITE" />
+                        <Text fill="#0598ff" layoutX="222.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login">
+                            <font>
+                                <Font size="26.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="errorMsg" fill="#0598ff" layoutX="200.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                    </children>
+                </AnchorPane>
+            </right>
+            <left>
+                <AnchorPane prefHeight="600.0" prefWidth="308.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Text fill="WHITE" layoutX="66.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-MailApp">
+                            <font>
+                                <Font size="38.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </AnchorPane>
+            </left>
+        </BorderPane>
+    </children>
+</AnchorPane>
