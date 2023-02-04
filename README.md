@@ -3,7 +3,7 @@ A small e-mail communication service that enables communication between multiple
 
 
 ## How to run: 
- - If your IDE can't find dependencies/objects used in the code go to file -> "invalidate caches" and restart.
+ - If your IDE can't find dependencies/classes used in the code go to file -> "invalidate caches" and restart.
  - Double check JavaFX dependencies in pom.xml
 
 1. to run the server side of the application, the main function is in ServerStart.java, run that to load the server.
